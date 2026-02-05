@@ -1,0 +1,141 @@
+{
+  "Data Scientist": {
+    "skills": ["Python", "Statistics", "Machine Learning", "Data Visualization"],
+    "courses": {
+      "Python": {
+        "name": "Python for Everybody - Coursera",
+        "hours": 20,
+        "link": "https://www.coursera.org/specializations/python"
+      },
+      "Statistics": {
+        "name": "Statistics with Python - Coursera",
+        "hours": 15,
+        "link": "https://www.coursera.org/specializations/statistics-with-python"
+      },
+      "Machine Learning": {
+        "name": "Machine Learning by Andrew Ng",
+        "hours": 25,
+        "link": "https://www.coursera.org/learn/machine-learning"
+      },
+      "Data Visualization": {
+        "name": "Data Visualization with Tableau",
+        "hours": 10,
+        "link": "https://www.coursera.org/learn/data-visualization"
+      }
+    }
+  },
+
+  "Web Developer": {
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Backend"],
+    "courses": {
+      "HTML": {
+        "name": "HTML5 Complete Guide",
+        "hours": 10,
+        "link": "https://www.udemy.com/course/html5-complete-guide/"
+      },
+      "CSS": {
+        "name": "CSS Bootcamp",
+        "hours": 12,
+        "link": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/"
+      },
+      "JavaScript": {
+        "name": "JavaScript Essentials",
+        "hours": 20,
+        "link": "https://www.udemy.com/course/the-complete-javascript-course/"
+      },
+      "React": {
+        "name": "React Developer Course",
+        "hours": 18,
+        "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+      },
+      "Backend": {
+        "name": "Node.js Backend Development",
+        "hours": 20,
+        "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+      }
+    }
+  },
+
+  "Machine Learning Engineer": {
+    "skills": ["Python", "Linear Algebra", "Machine Learning", "Deep Learning", "MLOps"],
+    "courses": {
+      "Python": {
+        "name": "Advanced Python Programming",
+        "hours": 20,
+        "link": "https://www.udemy.com/course/complete-python-bootcamp/"
+      },
+      "Linear Algebra": {
+        "name": "Linear Algebra for ML",
+        "hours": 15,
+        "link": "https://www.coursera.org/learn/linear-algebra-machine-learning"
+      },
+      "Machine Learning": {
+        "name": "ML Specialization",
+        "hours": 25,
+        "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      "Deep Learning": {
+        "name": "Deep Learning Specialization",
+        "hours": 30,
+        "link": "https://www.coursera.org/specializations/deep-learning"
+      },
+      "MLOps": {
+        "name": "MLOps Fundamentals",
+        "hours": 15,
+        "link": "https://www.coursera.org/learn/introduction-to-mlops"
+      }
+    }
+  },
+
+  "Data Analyst": {
+    "skills": ["Excel", "SQL", "Python", "Data Visualization"],
+    "courses": {
+      "Excel": {
+        "name": "Excel for Data Analysis",
+        "hours": 10,
+        "link": "https://www.udemy.com/course/excel-for-data-analysis/"
+      },
+      "SQL": {
+        "name": "SQL Bootcamp",
+        "hours": 15,
+        "link": "https://www.udemy.com/course/the-complete-sql-bootcamp/"
+      },
+      "Python": {
+        "name": "Python for Data Analysis",
+        "hours": 20,
+        "link": "https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/"
+      },
+      "Data Visualization": {
+        "name": "Power BI/Tableau Course",
+        "hours": 12,
+        "link": "https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/"
+      }
+    }
+  },
+
+  "AI Engineer": {
+    "skills": ["Python", "Machine Learning", "Deep Learning", "NLP"],
+    "courses": {
+      "Python": {
+        "name": "Python Programming",
+        "hours": 20,
+        "link": "https://www.coursera.org/specializations/python"
+      },
+      "Machine Learning": {
+        "name": "ML Specialization",
+        "hours": 25,
+        "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+      },
+      "Deep Learning": {
+        "name": "Deep Learning Course",
+        "hours": 30,
+        "link": "https://www.coursera.org/specializations/deep-learning"
+      },
+      "NLP": {
+        "name": "NLP Specialization",
+        "hours": 20,
+        "link": "https://www.coursera.org/specializations/natural-language-processing"
+      }
+    }
+  }
+}

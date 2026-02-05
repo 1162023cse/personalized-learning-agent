@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎓 Learning Dashboard</h1>
+
+    <!-- TOP CARDS -->
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Skills</h3>
+            <p id="totalSkills"></p>
+        </div>
+
+        <div class="card">
+            <h3>Completed</h3>
+            <p id="completedSkillsCount"></p>
+        </div>
+
+        <div class="card">
+            <h3>Progress</h3>
+            <div class="progress-bar">
+                <div id="overallProgress"></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Time Remaining</h3>
+            <p id="timeLeft"></p>
+        </div>
+
+    </div>
+     <h2>Progress Chart</h2>
+     <div class="chart-container">
+    <canvas id="progressChart"></canvas>
+    </div>
+
+    <h2>Recommended Courses</h2>
+    <ul id="recommendList"></ul>
+
+    <!-- LEARNING PATH -->
+    <h2>Your Learning Path</h2>
+    <div id="skillsContainer" class="skills"></div>
+
+    <br>
+    <a href="/generate-page">
+        <button>Create New Path</button>
+    </a>
+
+</div>
+
+<script>
+    const progressData = JSON.parse('{{ progress | tojson | safe }}');
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/dashboard.js"></script>
+
+</body>
+</html>

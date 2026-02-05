@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skill Gap Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<div class="container">
+
+<h1>🧠 Skill Gap Analysis</h1>
+
+<h2>Target Role: {{ goal }}</h2>
+
+<h3>Your Skills</h3>
+<ul>
+{% for s in user_skills %}
+<li>{{ s }}</li>
+{% endfor %}
+</ul>
+
+<h3>Missing Skills</h3>
+<ul>
+{% for s in gap_skills %}
+<li>{{ s }}</li>
+{% endfor %}
+</ul>
+
+<h3>📚 Recommended Courses</h3>
+<ul>
+{% for c in recommendations %}
+<li>{{ c }}</li>
+{% endfor %}
+</ul>
+
+<a href="/dashboard">
+<button>Go to Dashboard</button>
+</a>
+
+</div>
+</body>
+</html>

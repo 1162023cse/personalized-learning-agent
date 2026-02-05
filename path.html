@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning Path</title>
+</head>
+<body>
+
+<h2>Learning Path for {{goal}}</h2>
+
+<ul>
+{% for skill, course in path %}
+<li>{{skill}} → {{course}}</li>
+{% endfor %}
+</ul>
+
+<a href="/progress">Track Progress</a>
+
+</body>
+</html>

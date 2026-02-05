@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning Agent</title>
+</head>
+<body>
+<center>
+<h2>Personalized Learning Path Generator</h2>
+
+<form action="/generate" method="post">
+    Enter your skills (comma separated):<br>
+    <input type="text" name="skills"><br><br>
+
+    Select Goal:<br>
+    <select name="goal">
+        {% for g in goals %}
+        <option value="{{g}}">{{g}}</option>
+        {% endfor %}
+    </select><br><br>
+
+    <button type="submit">Generate Path</button>
+</form>
+</center>
+</body>
+</html>

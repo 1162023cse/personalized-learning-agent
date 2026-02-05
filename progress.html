@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress</title>
+</head>
+<body>
+
+<h2>Learning Progress</h2>
+
+<h3>Pending Skills</h3>
+<ul>
+{% for skill in progress.path %}
+    {% if skill not in progress.completed %}
+    <li>
+        {{skill}}
+        <a href="/complete/{{skill}}">Mark Completed</a>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h3>Completed Skills</h3>
+<ul>
+{% for skill in progress.completed %}
+<li>{{skill}}</li>
+{% endfor %}
+</ul>
+
+<a href="/">Back Home</a>
+
+</body>
+</html>
